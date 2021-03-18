@@ -3,7 +3,7 @@
      <p> Tongasoa </p>
       <div :key="index" v-for="(pays,index) in pays">
         <h1>{{ pays.translations.fr }}</h1>
-       <!-- <img :src="pays.flag">--> 
+       <img :src="pays.flag" style="width:20%;"> 
       </div> 
   </div>
 </template>
